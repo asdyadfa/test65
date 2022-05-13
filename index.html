@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        html, body {
+    background: #efefef;
+}
+
+body, h1, h2, h3, h4, h5, div, p, ul, li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    color: royalblue;
+}
+
+ul {
+    padding: 0 40px;
+}
+
+.page {
+    padding: 0 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.header, .footer {
+    background: yellowgreen;
+    padding: 10px 20px;
+}
+
+.nav {
+    background: black;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    display: block;
+    padding: 0 50px;
+    color: white;
+}
+
+.main {
+    padding: 10px 20px;
+    margin: 0 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.style-title {
+    text-align: center;
+}
+
+.style-title::before {
+    content: 'RYO FUJIOKA';
+}
+
+.style-title::after {
+    content: ' / 藤岡亮';
+}
+
+.scale {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.pc-oris {
+    width: 500px;
+    height: 300px;
+}
+
+.list-of-type {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed black;
+}
+
+.sple {
+    margin-left: 100px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header class="header page">
+        <h1></h1>
+    </header>
+    <nav class="nav page">
+        <ul class="list">
+            <li><a href="">ans</a></li>
+        </ul>
+    </nav>
+    <main class="main page">
+        <h1 class="title"></h1>
+        <div class="area-i-ii">
+            <h2 class="all-sense title">彼は誰？</h2>
+            <div class="scale high">
+                <div class="list-of-type">
+                    <div class="pc-oris" style="background: url(image/pc-ori.jpg) no-repeat; background-size: cover;"></div>
+                    <div class="sple">
+                        <p style="text-align: center;margin-bottom: 20px;font-size: 20px;"><span style="color: red;">や</span><span style="color: blue;">ば</span><span style="color: green;">い</span></p>
+                        <p class="marg-20">僕が思うには頭がよくて運動できて顔よくていやー勝てないと思う相手ですね。</p>
+                        <p>PCもうまいしいろいろ勝てないね。<b>先生</b>と呼ばせてもらおう</p>
+                        <p>にしても勉強あんなにするなんて僕からしたら頭おかしいと思ってしまいます(いい意味)。</p>
+                    </div>
+                </div>
+                <div class="list-of-type">
+                    <div class="pc-oris" style="background: url(image/scie-nce.jpg) no-repeat; background-size: cover;"></div>
+                    <div class="sple">
+                        <p>僕には頭のスキルが全くないのでそんなスキルを彼は持っているので僕はマジで勝てる気がしません。</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer page">
+        <p>@2022 hamu.S Creator Tools™</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
